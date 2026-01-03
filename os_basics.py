@@ -7,7 +7,12 @@ print(files)  # Print the list
 old_path=os.path.join(folder,"file1.txt")
 new_path=os.path.join(folder,"first_file.txt")
 
-os.rename(old_path,new_path)
+# os.rename(old_path,new_path)
 
+
+print(files)
+
+
+os.remove(os.path.join(folder,"file2.txt"))
 
 print(files)
